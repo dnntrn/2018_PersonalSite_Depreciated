@@ -1,0 +1,177 @@
+
+
+
+
+#indexTop h1{
+  font-size: 4em;
+}
+
+#indexTop h2{
+  font-size: 1.5em;
+}
+
+
+
+footer{
+  display: none;
+}
+
+.footerShow{
+  display: block;
+
+}
+
+#indexTop{
+
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+#particles-js{
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  background-color: #e77900;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+}
+
+
+#indexTopArrows{
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.7em;
+  animation-name: flash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.fadeInNOut{
+  animation-name: flash;
+  -webkit-animation-name: flash;
+  font-size: 1em;
+
+}
+
+.navArrows:hover{
+  cursor: pointer;
+}
+
+#frontArrows{
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#frontArrows:hover{
+  transform: scale(1.2,1.2);
+  color: black;
+  cursor: pointer;
+}
+
+#arrowBack{
+  animation-name: flash;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+
+  -webkit-animation-name: flash;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+
+  color: black;
+  float: left;
+
+  margin-right: 1%;
+}
+
+
+.secondaryHeader{
+  font-size: 3em;
+}
+.highlightItem img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.highlightItem{
+  float: left;
+  width: 33%;
+  padding: 0px;
+  margin-bottom: 15%;
+  margin-top: 3%;
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bulk{
+  padding-top: 70px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.bulk a{
+  color: black;
+}
+
+.bulk a:hover{
+  color: #9e9e9e;
+}
+
+.bulk a:link{
+  color: black;
+}
+
+.utilized{
+  color: #e77900;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+  #indexTop{
+    top: 40%;
+    left: 10%;
+    width: 80%;
+  }
+
+  #indexTop h1{
+    font-size: 3.4em;
+  }
+
+  #particles-js{
+    position: absolute;
+  }
+
+  .highlightItem img{
+    width: 100%;
+  }
+  
+  .highlightItem{
+    float: none;
+    text-align: center;
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bulk p{
+    font-size: 1.1em;
+  }
+
+
+
+}

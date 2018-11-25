@@ -1,0 +1,74 @@
+
+body{
+  text-align: center;
+}
+
+h1{
+  font-size: 2.6em;
+}
+
+.resumeButton{
+  font-size: .8em;
+  padding: 1.5%;
+}
+
+
+#techLinks{
+  float: left;
+  margin-top: 4%;
+  text-align: left;
+  margin-bottom: 10%;
+  animation-name: slideIn;
+  animation-duration: 4s;
+}
+
+#container{
+  font-size: 1.7em;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link, a:visited, a:focus{
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover{
+  /* color: #cc3333; */
+  text-decoration-color: #e77900;
+}
+
+
+/* Laptop Animations and Style*/
+#laptopIcon{
+  filter:invert(1);
+  position: relative;
+  width: 20%;
+  top: 150px;
+  animation-name: slideIn;
+  animation-duration: 2s;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 3s;
+}
+
+
+@keyframes slideIn{
+  from{opacity: 0; top: -100px;}
+  to{opacity: 1; top: 150px;}
+}
+
+@-webkit-keyframes slideIn{
+  from{opacity: 0; top: -100px;}
+  to{opacity: 1; top: 150px;}
+}
+
+@media only screen and (max-width: 480px){
+  h1{
+    font-size: 2.2em;
+  }
+
+  #container{
+    width: 85%;
+  }
+}
